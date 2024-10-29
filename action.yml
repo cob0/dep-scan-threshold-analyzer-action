@@ -12,7 +12,7 @@ inputs:
 
 runs:
   using: "docker"
-  image: "docker://ghcr.io/cob0/dep-scan-threshold-analyzer:1.0.0-rc"
+  image: "docker://ghcr.io/cob0/dep-scan-threshold-analyzer:latest"
   args:
     - "dep_scan_threshold_analyzer.py"
     - "-f"
